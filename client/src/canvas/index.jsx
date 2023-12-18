@@ -1,7 +1,10 @@
-const Canvas = () => {
+import { Canvas } from '@react-three/fiber'
+import { Environment, Center } '@react-three/drei'
+
+const CanvasModel = () => {
   return (
-    <div>index</div>
+    <div>Canvas</div>
   )
 }
 
-export default Canvas
+export default CanvasModel
