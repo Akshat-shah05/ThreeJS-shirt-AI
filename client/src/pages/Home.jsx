@@ -22,7 +22,7 @@ const Home = () => {
                     <motion.div className='home-content' {...headContainerAnimation}>
                         <motion.div {...headTextAnimation}>
                             <h1 className='head-text'>
-                                LETS <br className="xl:block hidden"/> DO IT.
+                                CUSTOMIZE <br className="xl:block hidden"/> YOUR <br className="xl:block hidden"/> SHIRT
                             </h1>
                         </motion.div>
                         <motion.div
@@ -30,8 +30,8 @@ const Home = () => {
                             className="flex flex-col gap-5"
                         >
                             <p className="max-w-md font-normal text-gray-600 text-base">
-                                Create your unique and exclusive shirt with our brand-new 3D customization tool. 
-                                <strong> Unleash your imagination</strong>{" "} and define your own style.
+                                A new way to visualize your designs, in 3D, powered by ThreeJS.
+                                <strong> You're limited only by your imagination</strong>{" "} 
                             </p>
 
                             <CustomButton 
